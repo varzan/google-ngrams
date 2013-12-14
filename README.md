@@ -2,6 +2,9 @@
 
 Here you'll find a basic python script to retrieve data behind the trajectories plotted on the [Google Ngram Viewer](http://books.google.com/ngrams). A Python script that creates [XKCD](http://www.xkcd.com) style plots from the ngram CSV data is also included, making it simple to create some awesome looking plots!
 
+# Dependencies #
+You will need to have the pandas library installed in order to use the script. For plotting support, you need a version of Matplotlib with support for XKCD, i.e. >= 1.3.1.
+
 # Use #
 
 Simply type the same query you would type at the [Google Ngram Viewer](http://books.google.com/ngrams) and retrieve the data in csv format.
